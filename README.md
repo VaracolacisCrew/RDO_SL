@@ -5,8 +5,8 @@
 ----|----|----|----|----|
 Cristófano Varacolaci|[ObsessedDesigns Studios™, Inc.](https://obsesseddesigns.com)|cristo@obsesseddesigns.com|1.0.0.0|2021.11.20|
 
-## &nbsp;
-## &nbsp;
+&nbsp;
+&nbsp;
 
 ## INTRODUCTION
 Tired of griefers online? tired of those menu modders that destroy your game?
@@ -16,13 +16,13 @@ Well I saw online (I can't reliable tell the original mind behind this) you can 
 
 Well this script does exactly that, but faster and on a simple click of a key (hotkey).
 
-## &nbsp;
+&nbsp;
 
 ## DESCRIPTION
 _This simple script targets the Red Dead Online exe file  (RDR2.exe) and duspends it for a x amount of time to help players to get a temporally solo lobby._
 
-## &nbsp;
-## &nbsp;
+&nbsp;
+&nbsp;
 
 ## USAGE
 
@@ -33,7 +33,7 @@ _This simple script targets the Red Dead Online exe file  (RDR2.exe) and duspend
 4. Choose your desired suspension time and hotkeys.
 5. Once the game is running, any time you want to suspend it, just use your hotkey and enjoy.
 
-## &nbsp;
+&nbsp;
 
 ## NOTES
 
@@ -41,8 +41,8 @@ _This simple script targets the Red Dead Online exe file  (RDR2.exe) and duspend
 * To disable this feature after enabled, you'll need to edit the settings.ini and set the variable snclose to 0 (snclose=0) under the OPTIONS section.
 * As this is a very early release, there is no much error control, so please make sure your ini file is present and all values are written. (I'll fix defaults later).
 
-## &nbsp;
-## &nbsp;
+&nbsp;
+&nbsp;
 
 #  - WARNING - 
 
