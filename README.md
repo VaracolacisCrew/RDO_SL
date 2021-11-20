@@ -37,6 +37,7 @@ _This simple script targets the Red Dead Online exe file  (RDR2.exe) and duspend
 
 ## NOTES
 
+* The Lobby will eventually get more people, but you'll be alone for a while.
 * If you enable the Suspend and Close option the app will run auto suspend the game, wait your defined suspension time and close automaticly. 
 * To disable this feature after enabled, you'll need to edit the settings.ini and set the variable snclose to 0 (snclose=0) under the OPTIONS section.
 * As this is a very early release, there is no much error control, so please make sure your ini file is present and all values are written. (I'll fix defaults later).
