@@ -19,7 +19,7 @@ Well this script does exactly that, but faster and on a simple click of a key (h
 &nbsp;
 
 ## DESCRIPTION
-_This simple script targets the Red Dead Online exe file  (RDR2.exe) and duspends it for a x amount of time to help players to get a temporally solo lobby._
+_This simple script targets the Red Dead Online exe file  (RDR2.exe) and suspends it for a x amount of time to help players to get a temporally solo lobby._
 
 &nbsp;
 &nbsp;
