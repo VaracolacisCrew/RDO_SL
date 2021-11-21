@@ -56,10 +56,8 @@ SETTINGS:
 
     if ( OPTIONS_snclose ) {
             GuiControl,2:, SnC, 1
-            OPTIONS_snclose := 0
         } else {
             GuiControl,2:, SnC, 0
-            OPTIONS_snclose := 1
     }
 
     Gui,2:Show, w160 h360, Settings
@@ -68,22 +66,19 @@ Return
 SETTINGSOK:
     Gui,2:Submit
     GuiControlGet, SuspendnClose, , SnC,
+    OPTIONS_snclose := SuspendnClose
     OPTIONS_time := SuspensionTime
     Ini_write(CONFIGURATION_FILE, "OPTIONS", "time", SuspensionTime)
     Ini_write(CONFIGURATION_FILE, "OPTIONS", "snclose", SuspendnClose)
 
-    If hotkey1<>
-    {
-        New_hotkey1 := hotkey1
-        Ini_write(CONFIGURATION_FILE, "HOTKEYS", "hotkey1", New_hotkey1)
-    }
-    If hotkey2<>
-    {
-        New_hotkey2 := hotkey2
-        Ini_write(CONFIGURATION_FILE, "HOTKEYS", "hotkey2", New_hotkey2)
-    }
-    Hotkey, %New_hotkey1%, SUSPEND
-    Hotkey, %New_hotkey2%, END
+    HOTKEYS_hotkey1 := hotkey1
+    Ini_write(CONFIGURATION_FILE, "HOTKEYS", "hotkey1", HOTKEYS_hotkey1)
+
+    HOTKEYS_hotkey2 := hotkey2
+    Ini_write(CONFIGURATION_FILE, "HOTKEYS", "hotkey2", HOTKEYS_hotkey2)
+    
+    Hotkey, %HOTKEYS_hotkey1%, SUSPEND
+    Hotkey, %HOTKEYS_hotkey2%, END
 Return
 
 SETTINGSCANCEL:
